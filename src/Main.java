@@ -14,8 +14,8 @@ public class Main extends PApplet {
     private boolean redCheck = false;
     private boolean blueCheck = false;
     private int valS = 0;
-    private boolean checkBlueCheck = false;
-    private boolean checkRedCheck = false;
+    private boolean checkBlueCheck = true;
+    private boolean checkRedCheck = true;
     private boolean makeMove = false;
     private possibleMove move;
     private boolean showPosMove = true;
@@ -97,7 +97,6 @@ public class Main extends PApplet {
             possible.clear();
             if (checkRedCheck) {
                 check4CheckRed();
-
                 checkRedCheck = false;
             }
 
@@ -970,7 +969,6 @@ public class Main extends PApplet {
         if (valS == 5) {
             findBishopMoveBlue(xl, yl);
             findRookMoveBlue(xl, yl);
-
         }
 
         if (valS == 6) {
@@ -986,8 +984,9 @@ public class Main extends PApplet {
 
             findKingMoveBlue(xl, yl);
             // System.out.println("done running method find king move");
-
         }
+
+        System.out.println("Checked through blue possibilities");
 
 
         if (Move) {
@@ -1034,6 +1033,9 @@ public class Main extends PApplet {
             // System.out.println("done running method find king move");
 
         }
+
+        System.out.println("Checked through red possibilities");
+
         if (Move) {
             makeAMove();
         }
@@ -1152,6 +1154,7 @@ public class Main extends PApplet {
                         System.out.println("red possible xloc is " + p.xloc + " y loc " + p.yloc);
                         if (grid[p.xloc][p.yloc] == 6) {
                             System.out.println("blue check");
+                            JOptionPane.showMessageDialog(null,"Blue has been checked!");
                         }
                     }
                     //I think this for loop is the problem, but I don't know what the grid numbers mean -Soham

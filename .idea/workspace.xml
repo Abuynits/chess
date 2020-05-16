@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46cc550b-1ec0-4013-a8fb-55c6a746a3e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,29 +79,29 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="0" y="0" key="#Project_Structure/0.0.1280.720@0.0.1280.720" timestamp="1589651455870" />
-    <state width="1226" height="154" key="GridCell.Tab.0.bottom" timestamp="1589651568968">
+    <state width="1226" height="154" key="GridCell.Tab.0.bottom" timestamp="1589653529764">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1226" height="154" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589651568968" />
-    <state width="1226" height="154" key="GridCell.Tab.0.center" timestamp="1589651568968">
+    <state width="1226" height="154" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1589653529764" />
+    <state width="1226" height="154" key="GridCell.Tab.0.center" timestamp="1589653529764">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1226" height="154" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589651568968" />
-    <state width="1226" height="154" key="GridCell.Tab.0.left" timestamp="1589651568968">
+    <state width="1226" height="154" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1589653529764" />
+    <state width="1226" height="154" key="GridCell.Tab.0.left" timestamp="1589653529764">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1226" height="154" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589651568968" />
-    <state width="1226" height="154" key="GridCell.Tab.0.right" timestamp="1589651568968">
+    <state width="1226" height="154" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1589653529764" />
+    <state width="1226" height="154" key="GridCell.Tab.0.right" timestamp="1589653529764">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1226" height="154" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589651568968" />
+    <state width="1226" height="154" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1589653529764" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>1224</line>
+          <line>1230</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
