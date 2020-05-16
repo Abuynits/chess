@@ -1134,16 +1134,19 @@ public class Main extends PApplet {
     private void check4CheckBlue() {
         //checks if blue king is under check - runs after turn 2
         //problem withstart xloc and y loc
-        //  System.out.println("reached check check");
-        int val;
+        System.out.println("Checking for Blue Checkmate");
+        int val = 0;
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[0].length; j++) {
 
                 val = grid[i][j];
                 if (val > 10) {
 
+                    //What does the val being greater than 10 do? Is it a type of piece?-Soham
+
                     System.out.println("red attack i is " + i + "j is " + j);
                     determinePieceRed(false, i, j);
+                    //This tells the type of piece to move, right? -Soham
 
                     for (possibleMove p : possible) {
                         System.out.println("red possible xloc is " + p.xloc + " y loc " + p.yloc);
@@ -1151,7 +1154,7 @@ public class Main extends PApplet {
                             System.out.println("blue check");
                         }
                     }
-
+                    //I think this for loop is the problem, but I don't know what the grid numbers mean -Soham
 
                 }
             }
