@@ -1098,16 +1098,17 @@ public class Main extends PApplet {
         showPosMove();
     }//finds possible moves for the red king
 
-    private void check4CheckRed() {//checks if red king is under check- runs after turn 1;
+    private void check4CheckRed() {
+        //checks if red king is under check- runs after turn 1;
         //problem withstart xloc and y loc
         //  System.out.println("reached check check");
         int val;
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[0].length; j++) {
 
-                val = grid[i][j];
-                if (val <= 10 & val != 0) {
 
+                if (valS <= 10 & valS != 0) {
+                    valS = grid[i][j];
                     //  System.out.println("startxLoc is "+ i + "startyloc is "+ j);
                     //does consider each pts- 16 in total at start
                     System.out.println(" blue attach check i is " + i + " j is " + j);
